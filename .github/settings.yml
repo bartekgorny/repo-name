@@ -23,7 +23,6 @@ repository :
 branches :
   - name       : main
     protection :
-
       # Required. Require at least two approving reviews on a pull request,
       # before merging. Set to null to disable.
       required_pull_request_reviews :
@@ -48,7 +47,7 @@ branches :
 
       # Required. Enforce all configured restrictions for administrators.
       # Set to true to enforce required status checks for repo admins.
-      enforce_admins : false
+      enforce_admins : true
 
       # Prevent merge commits from being pushed to matching branches.
       required_linear_history : false
