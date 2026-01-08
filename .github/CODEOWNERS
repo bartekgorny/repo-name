@@ -7,7 +7,7 @@
 ########################################
 # Owners of every file in the repo
 #
-* @bartekgorny
+* @bartekgorny @travis-motorola
 
 # GitHub scans this file to identify the "owner" of each file, based on the
 # filename or pattern at the beginning of each line. The LAST matching line
